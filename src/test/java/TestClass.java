@@ -18,7 +18,7 @@ public class TestClass {
 
 	@BeforeClass
 	public void fi() {
-		System.out.println("Welcome to the magic world");
+		System.out.println("Welcome to the magic world now");
 		driver = Browsers.brs("CH");
 		driver.get("http://localhost:8080/");
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
