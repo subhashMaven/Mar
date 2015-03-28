@@ -19,7 +19,7 @@ public class TestClass {
 	@BeforeClass
 	public void fi() {
 		System.out.println("Welcome to the magic world");
-		driver = new FirefoxDriver();
+		driver = Browsers.brs("CH");
 		driver.get("http://localhost:8080/");
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 	}
