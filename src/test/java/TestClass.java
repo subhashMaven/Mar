@@ -27,7 +27,7 @@ public class TestClass {
 	@Test
 	public static void set() {
 
-		for (int i = 0; i < 3; i++) {
+		for (int i = 1000; i < 1005; i++) {
 			driver.findElement(By.linkText("New Item")).click();
 			driver.findElement(By.xpath("//*[@id='name']")).sendKeys(
 					"Project No- "+i+" on "+new SimpleDateFormat("yyyy-MM-dd hh-mm").format(new Date()));
